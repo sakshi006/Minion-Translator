@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+:root{
+    --primary-color:black;
+}
+
+body{
+    font-family: 'Major Mono Display', monospace;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* .header{
+    padding: 2rem;
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+#txt{
+    width: 500px;
+    height: 200px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem;
+ }
+
+
+ .output{     
+    width: 500px;
+    height: 200px;
+    border: solid black 0.05rem;
+    background-color: white;
+    /* padding: 0.5rem;
+    margin: 0.5rem; */
+ }
