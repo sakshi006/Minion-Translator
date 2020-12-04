@@ -6,55 +6,74 @@
 
 body{
     font-family: 'Major Mono Display', monospace;
-    background-color: yellow;
+    background-color: rgb(255, 247, 1);
     padding: 0px;
     margin: 0px;
 }
 
-
-
-/* .header{
-    padding: 2rem;
-    max-width: 100px;
+.container{
+    padding: 1.5rem 1.5rem;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+    max-width: 75%;
+    background-color: #0A75BC;
+    color: blanchedalmond;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.header{
+    text-align: center;
+}
 
 .input{
     display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 60%;
     margin: auto;
+    padding: 2rem 1.5rem;
+    
 }
 
 #txt{
     width: 500px;
     height: 200px;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0.5rem;
+    border: black solid 0.1px;
+    border-radius: 1rem;
 }
 
 .button{
     display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #231F20;
+  padding: 0.5rem;
 }
 
 
-.btn{
+#btn{
     padding: 0.5rem 1rem;
     margin: 0.5rem 0.5rem;
  }
 
 
- .output{     
-    width: 500px;
-    height: 200px;
-    border: solid black 0.05rem;
+
+#output{
+    border: black solid 0.1px;
+    height: 20vh;
     background-color: white;
-    /* padding: 0.5rem;
-    margin: 0.5rem; */
- }
+    padding: 2rem 1.5rem;
+    margin: auto;
+    max-width: 52%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+ .footer{
+    background-color:#0A75BC ;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
