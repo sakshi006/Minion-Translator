@@ -30,7 +30,8 @@ body{
     max-width: 60%;
     margin: auto;
     padding: 2rem 1.5rem;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 #txt{
@@ -40,6 +41,8 @@ body{
     margin: 0.5rem;
     border: black solid 0.1px;
     border-radius: 1rem;
+    font-family: inherit;
+    font-weight: bold;
 }
 
 .button{
@@ -73,6 +76,7 @@ body{
  .footer{
     background-color:#0A75BC ;
     padding: 1.5rem 1rem;
+    padding-bottom: 0.5rem;
     text-align: center;
     color: white;
     margin-top: 2rem;
