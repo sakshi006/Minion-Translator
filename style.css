@@ -55,8 +55,11 @@ body{
 
 
 #btn{
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.25rem;
     margin: 0.5rem 0.5rem;
+    font-weight: bolder;
+    font-family: inherit;
+    font-size: large;
  }
 
 
@@ -76,7 +79,7 @@ body{
  .footer{
     background-color:#0A75BC ;
     padding: 1.5rem 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     text-align: center;
     color: white;
     margin-top: 2rem;
